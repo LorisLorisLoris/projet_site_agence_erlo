@@ -135,6 +135,10 @@
     padding: 0 2vw;
 }
 
+.mainExpertiseBox:hover {
+    box-shadow: 0 0 30px rgb(160, 255, 160);
+}
+
 .mainExpertiseBox img {
     margin-top: 6vw;
     margin-bottom: 0vw;
@@ -365,24 +369,28 @@
 }
   
 .card {
-    color: white;
+    color: rgba(255, 255, 255, 0);
     position: relative;
     width: 160px;
     height: 200px;
     background: white;
     padding: 10px;
-    border: 1px solid black;
+    box-shadow: 0 0 10px rgb(220, 220, 220);
     transition: all .5s ease-in-out;
 }
 
 .card1{
-    background-image: url("https://pbs.twimg.com/media/E9u3vfHXIAMmqf8?format=png&name=360x360");
-    background-position:50% 5%;  
+    background-image: url("assets/pics/profil1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .card2{
-    background-image: url("https://www.nautiljon.com/images/jeuxvideo_persos/00/82/naked_snake_1628.jpg");
-    background-position:50%;
+    background-image: url("assets/pics/profil2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
   
 .card-hidden {

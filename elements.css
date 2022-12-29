@@ -208,6 +208,15 @@ header {
     display: none;
 }
 
+
+.nav-container a:hover {
+    text-decoration: underline;
+}
+
+.navbar .menu-items li:hover {
+    text-decoration: underline;
+}
+
 /* Footer contact */
 
 .footerContact {
@@ -312,6 +321,11 @@ footer p {
         width: 15vw;
         height: 3vw;
         font-size: 1vw;
+        transition: 0.3s ease;
+    }
+
+    .button:hover {
+        transform: scale(0.9);
     }
     
     /* Header & Navigation */
@@ -419,6 +433,7 @@ footer p {
         font-size: 1vw;
         margin: 0;
         margin-left: 3vw;
+        transition: 0.3s ease;
     }
 
     .footerContactBtn span {
@@ -428,6 +443,12 @@ footer p {
     .footerContactBtn::after {
         content: "Nous contacter";
     }
+
+    .footerContactBtn:hover {
+        transform: scale(0.9);
+    }
+
+
 
     /* Footer */
 
